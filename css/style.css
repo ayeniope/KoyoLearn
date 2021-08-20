@@ -21,19 +21,14 @@ a {
 a:hover {
 	color: gray;
 }
-h1 {
+h1,h2 {
 	font-weight: bold;
-	font-size: 48px;
-	line-height: 72px;
-}
-h2 {
-	font-weight: bold;
-	font-size: 40px;
-	line-height: 40px;
+	font-size: 30px;
+	line-height: 10vh;
 }
 p {
 	font-size: 20px;
-	line-height: 27px;
+	line-height: 7vh;
 }
 .orange {
 	color: #f56e2c;
@@ -146,12 +141,6 @@ a.noborder {
 	text-align: center;
 	margin-top: 150px;
 }
-.sect2 p {
-	font-size: 30px;
-	line-height: 27px;
-	color: rgba(0, 0, 0, 0.8);
-	text-align: left;
-}
 .sect3 h2 {
 	text-align: center;
 }
@@ -164,7 +153,6 @@ a.noborder {
 }
 .wrap p {
 	font-weight: bold;
-	font-size: 25px;
 	margin: 10px;
 	border-radius: 9px;
 	padding: 20px 35px;
@@ -230,6 +218,7 @@ a.noborder {
 	height: 50px;
 	padding: 0 10px;
 	border-radius: 5px;
+	border:none;
 }
 .contain-input {
 	display: flex;
@@ -579,11 +568,11 @@ input[name='rad'] {
 	padding-right: 10px;
 }
 .form1 button {
-	padding: 10px 40px;
+	padding: 5px 40px;
 	font-size: 20px;
 	font-weight: 500;
-	margin: 30px 25%;
-	margin: center;
+/* 	margin: 30px 25%; */
+	margin-top:30px;
 	justify-content: center;
 	align-content: center;
 	background: var(--orange);
@@ -624,7 +613,7 @@ button:hover {
 	height: 380px;
 }
 #signin-up {
-	text-align: center;
+	margin-top:20px;
 }
 /* sigin */
 #resume {
