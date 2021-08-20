@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="img/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="css/wallet.css" />
+		<title>Wallet Dashboard</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="sidebar">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/koyo-logo.png" alt="Koyo"
+					/></a>
+				</div>
+				<div class="navbar">
+					<ul class="nav">
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="home-outline"></ion-icon>
+							</span>
+							<p>Home</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="bag-add-outline"></ion-icon>
+							</span>
+							<p>Add/Withdrawal</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="people-outline"></ion-icon>
+							</span>
+							<p>Send/Request</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="card-outline"></ion-icon>
+							</span>
+							<p>Virtual Card</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="pulse-outline"></ion-icon>
+							</span>
+							<p>Activity</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="logo-bitcoin"></ion-icon>
+							</span>
+							<p>Crypto</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="gift-outline"></ion-icon>
+							</span>
+							<p>Invite and Earn</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="mobile-nav">
+				<div class="mobile-logo">KOYO</div>
+
+				<div class="navbar">
+					<div class="hamburg">
+						<label for="checkbox">
+							<span class="hamburger_div">
+								<ion-icon
+									class="hamburger"
+									name="reorder-three-outline"
+								></ion-icon>
+							</span>
+						</label>
+					</div>
+					<input type="checkbox" name="" id="checkbox" />
+					<ul class="nav-mobile">
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="home-outline"></ion-icon>
+							</span>
+							<p>Home</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="bag-add-outline"></ion-icon>
+							</span>
+							<p>Add/Withdrawal</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="people-outline"></ion-icon>
+							</span>
+							<p>Send/Request</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="card-outline"></ion-icon>
+							</span>
+							<p>Virtual Card</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="pulse-outline"></ion-icon>
+							</span>
+							<p>Activity</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="logo-bitcoin"></ion-icon>
+							</span>
+							<p>Crypto</p>
+						</li>
+						<li>
+							<span>
+								<ion-icon class="nav-icon" name="gift-outline"></ion-icon>
+							</span>
+							<p>Invite and Earn</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<header>
+				<div class="balance">
+					<span>
+						<ion-icon name="logo-usd"></ion-icon>
+					</span>
+					<span class="main-balance"
+						><strong>Main Balance</strong>: <strong>$ 50.00</strong>KUSD</span
+					>
+					<span><strong>$ 10.00</strong>USD</span>
+				</div>
+				<div class="header-nav">
+					<ion-icon class="icon" name="notifications-outline"></ion-icon>
+					<ion-icon class="icon" name="settings-outline"></ion-icon>
+					<img src="img/man.webp" alt=" " />
+					<ion-icon
+						class="icon drop-icon"
+						name="chevron-down-outline"
+					></ion-icon>
+				</div>
+			</header>
+			<main class="main-container">
+					<h1>Welcome Nenye,</h1>
+					<p id="resume">Always remember to wash your hands</p>
+					<div class="money">
+						<div class="add-money">
+							<div class="add-money-forms">
+								<div class="amount">
+									<label for="amount">
+										<p>Amount</p>
+									</label>
+									<input type="number" placeholder="$30" />
+								</div>
+								<div class="payment-method">
+									<p>Payment Method</p>
+									<select name="payment-method" id="payment-method">
+										<option value="master" selected>Master Card</option>
+										<option value="visa">Visa</option>
+										<option value="verve">Verve</option>
+									</select>
+								</div>
+							</div>
+							<div class="btn add-btn">
+								<button>Add Money</button>
+							</div>
+						</div>
+						<div class="withdraw-money">
+							<div class="withdraw-money-forms">
+								<div class="amount">
+									<label for="amount">Amount</label>
+									<input type="number" placeholder="$30" />
+								</div>
+								<div class="withdraw-to">
+									<p>Withdraw to</p>
+									<select name="withdraw-to" id="withdraw-to">
+										<option value="master" selected>Bank</option>
+										<option value="visa">Access Bank</option>
+										<option value="visa">FCMB</option>
+										<option value="verve">GT Bank</option>
+										<option value="verve">Heritage Bank</option>
+										<option value="verve">keystone Bank</option>
+										<option value="visa">UBA</option>
+										<option value="verve">Zenith Bank</option>
+									</select>
+								</div>
+								<div class="payment-method">
+									<p>Payment Method</p>
+									<select name="payment-method" id="payment-method">
+										<option value="master" selected>Master Card</option>
+										<option value="visa">Visa</option>
+										<option value="verve">Verve</option>
+									</select>
+								</div>
+							</div>
+							<div class="btn withdraw-btn">
+								<button>Withdraw Money</button>
+							</div>
+						</div>
+					</div>
+			</main>
+		</div>
+		<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
