@@ -242,7 +242,7 @@ select {
 .form-editprofile{
 	margin-left:200px;
 }
-input,select {
+.edit-profile input,.edit-profile select  {
 	padding: 0.5rem 1rem;
 	border-radius: 0.3rem;
 	width: 100%;
